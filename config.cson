@@ -1,0 +1,42 @@
+"*":
+  "autocomplete-clang": {}
+  core:
+    disabledPackages: [
+      "autocomplete-html"
+      "django-atom"
+      "linter-pylint"
+      "linter-rst"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    tabLength: 4
+  emmet: {}
+  "exception-reporting":
+    userId: "8535ec67-e2e7-ea4b-6ca6-53c91442d769"
+  "git-plus":
+    general:
+      _analyticsUserId: "bf118733-17bf-418b-83fe-9ef5cf20deed"
+  linter:
+    ignoreVCSIgnoredFiles: false
+    showErrorPanel: false
+    showErrorTabLine: true
+    showErrorTabProject: false
+    statusIconScope: "Line"
+  "linter-clang": {}
+  "linter-flake8": {}
+  "linter-pep8": {}
+  "linter-php": {}
+  "linter-phpcs":
+    codeStandardOrConfigFile: "PSR2"
+    executablePath: "C:\\xampp\\php\\phpcs.bat"
+    standard: "PSR2"
+    tabWidth: 4
+  "rst-preview-pandoc":
+    pandocOpts: "-frst -thtml --webtex"
+  welcome:
+    showOnStartup: false
+".django.html.text":
+  editor:
+    tabLength: 4
