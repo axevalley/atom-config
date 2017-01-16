@@ -1,3 +1,4 @@
+atom-beutify
 atom-css-comb
 atom-django
 atom-wrap-in-tag
