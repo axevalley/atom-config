@@ -19,8 +19,11 @@ linter-gcc
 linter-pep8
 linter-php
 linter-phpcs
+linter-python-pep257
 linter-pylint
 linter-rst
 merge-conflicts
 pigments
+python-iresolve
+python-tools
 rst-preview-pandoc
