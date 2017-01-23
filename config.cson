@@ -1,11 +1,20 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "77febff3-70ae-421f-aef4-e848b7ebef9b"
   "autocomplete-clang": {}
+  "autocomplete-python":
+    useKite: false
   core:
     disabledPackages: [
       "autocomplete-html"
       "django-atom"
       "linter-pylint"
       "linter-rst"
+      "linter-clang"
+      "linter-gcc"
+      "jshint"
+      "linter-python-pep257"
     ]
     telemetryConsent: "limited"
   editor:
@@ -20,7 +29,7 @@
       _analyticsUserId: "bf118733-17bf-418b-83fe-9ef5cf20deed"
   linter:
     ignoreVCSIgnoredFiles: false
-    showErrorPanel: false
+    showErrorInline: false
     showErrorTabLine: true
     showErrorTabProject: false
     statusIconScope: "Line"
@@ -33,6 +42,7 @@
     executablePath: "C:\\xampp\\php\\phpcs.bat"
     standard: "PSR2"
     tabWidth: 4
+  "linter-pydocstyle": {}
   "rst-preview-pandoc":
     pandocOpts: "-frst -thtml --webtex"
   welcome:
