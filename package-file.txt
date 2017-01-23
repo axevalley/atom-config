@@ -20,7 +20,7 @@ linter-gcc
 linter-pep8
 linter-php
 linter-phpcs
-linter-python-pep257
+linter-pydocstyle
 linter-pylint
 linter-rst
 merge-conflicts
