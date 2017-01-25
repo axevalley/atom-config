@@ -32,6 +32,10 @@
 'atom-text-editor[data-grammar="text html django"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
 
+# Fix autocomplete for css
+'atom-text-editor[data-grammar~="css"]:not([mini])':
+    'tab': 'autocomplete-plus:confirm'
+
 # Disable Enter key for confirming an autocomplete suggestion
 'atom-text-editor:not(mini).autocomplete-active':
   'enter': 'editor:newline'
