@@ -3,6 +3,7 @@ atom-css-comb
 atom-django
 atom-wrap-in-tag
 autocomplete-clang
+autocomplete-python
 color-picker
 django-atom
 django-templates
