@@ -31,7 +31,6 @@
     ignoreVCSIgnoredFiles: false
     showErrorInline: false
     showErrorTabLine: true
-    showErrorTabProject: false
     statusIconScope: "Line"
   "linter-clang": {}
   "linter-flake8": {}
@@ -42,7 +41,10 @@
     executablePath: "C:\\xampp\\php\\phpcs.bat"
     standard: "PSR2"
     tabWidth: 4
-  "linter-pydocstyle": {}
+  "linter-pycodestyle":
+    convertAllErrorsToWarnings: false
+  "linter-pydocstyle":
+    ignoreCodes: "D105"
   "rst-preview-pandoc":
     pandocOpts: "-frst -thtml --webtex"
   welcome:
