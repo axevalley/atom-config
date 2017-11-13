@@ -3,3 +3,5 @@ pycodestyle
 pydocstyle
 flake8
 pep8
+isort
+pyflakes

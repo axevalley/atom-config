@@ -2,9 +2,14 @@
   "atom-beautify":
     general:
       _analyticsUserId: "77febff3-70ae-421f-aef4-e848b7ebef9b"
+  "atom-package-deps":
+    ignored: []
   "autocomplete-clang": {}
   "autocomplete-python":
+    pythonPaths: "C:\\Python\\Python36\\python.exe"
+    showTooltips: true
     useKite: false
+    useSnippets: "required"
   core:
     disabledPackages: [
       "autocomplete-html"
@@ -15,6 +20,11 @@
       "linter-gcc"
       "jshint"
       "linter-python-pep257"
+      "autocomplete-css"
+      "linter-php"
+      "linter-phpcs"
+      "autocomplete-clang"
+      "minimap-autohide"
     ]
     telemetryConsent: "limited"
   editor:
@@ -28,10 +38,7 @@
     general:
       _analyticsUserId: "bf118733-17bf-418b-83fe-9ef5cf20deed"
   linter:
-    ignoreVCSIgnoredFiles: false
-    showErrorInline: false
-    showErrorTabLine: true
-    statusIconScope: "Line"
+    lintOnChange: false
   "linter-clang": {}
   "linter-flake8": {}
   "linter-pep8": {}
@@ -45,8 +52,35 @@
     convertAllErrorsToWarnings: false
   "linter-pydocstyle":
     ignoreCodes: "D105"
+  "linter-ui-default":
+    panelHeight: 69
+  minimap:
+    absoluteMode: true
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+      "minimap-autohider": true
+      "minimap-autohiderDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
   "rst-preview-pandoc":
     pandocOpts: "-frst -thtml --webtex"
+  "spell-check":
+    locales: [
+      "en-GB"
+    ]
   welcome:
     showOnStartup: false
 ".django.html.text":
