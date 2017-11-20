@@ -11,6 +11,7 @@
     useKite: false
     useSnippets: "required"
   core:
+    closeDeletedFileTabs: true
     disabledPackages: [
       "autocomplete-html"
       "django-atom"
@@ -26,9 +27,13 @@
       "autocomplete-clang"
       "minimap-autohide"
     ]
+    packagesWithKeymapsDisabled: [
+      "python-isort"
+    ]
     telemetryConsent: "limited"
   editor:
     invisibles: {}
+    showIndentGuide: true
     showInvisibles: true
     tabLength: 4
   emmet: {}
@@ -75,12 +80,20 @@
       pigmentsDecorationsZIndex: 0
       selection: true
       selectionDecorationsZIndex: 0
+  "python-isort":
+    sortOnSave: true
   "rst-preview-pandoc":
     pandocOpts: "-frst -thtml --webtex"
   "spell-check":
     locales: [
       "en-GB"
     ]
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
   welcome:
     showOnStartup: false
 ".django.html.text":

@@ -17,7 +17,7 @@
 #   'ctrl-shift-p': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
-# You can find more information about keymaps in these guides:
+# You can find more i nformation about keymaps in these guides:
 # * https://atom.io/docs/latest/using-atom-basic-customization#customizing-key-bindings
 # * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 #
@@ -31,6 +31,7 @@
 
 'atom-text-editor[data-grammar="text html django"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
+    'insert': 'autocomplete-plus:confirm'
 
 # Fix autocomplete for css
 'atom-text-editor[data-grammar~="css"]:not([mini])':
