@@ -9,28 +9,22 @@
     pythonPaths: "C:\\Python\\Python36\\python.exe"
     showTooltips: true
     useKite: false
-    useSnippets: "required"
+    useSnippets: "all"
+  "autocomplete-python-jedi": {}
   core:
     closeDeletedFileTabs: true
     disabledPackages: [
       "autocomplete-html"
-      "django-atom"
-      "linter-pylint"
-      "linter-rst"
-      "linter-clang"
-      "linter-gcc"
-      "jshint"
       "linter-python-pep257"
-      "autocomplete-css"
-      "linter-php"
-      "linter-phpcs"
-      "autocomplete-clang"
+      "language-gfm"
+      "spell-check"
       "minimap-autohide"
     ]
     packagesWithKeymapsDisabled: [
       "python-isort"
     ]
     telemetryConsent: "limited"
+    uriHandlerRegistration: "always"
   editor:
     invisibles: {}
     showIndentGuide: true
@@ -42,8 +36,7 @@
   "git-plus":
     general:
       _analyticsUserId: "bf118733-17bf-418b-83fe-9ef5cf20deed"
-  linter:
-    lintOnChange: false
+  linter: {}
   "linter-clang": {}
   "linter-flake8": {}
   "linter-pep8": {}
@@ -57,6 +50,9 @@
     convertAllErrorsToWarnings: false
   "linter-pydocstyle":
     ignoreCodes: "D105"
+  "linter-spell":
+    spellPath: "aspell"
+    spellingErrorSeverity: "info"
   "linter-ui-default":
     panelHeight: 69
   minimap:
@@ -94,6 +90,7 @@
     leftEditorColor: "red"
     rightEditorColor: "green"
     scrollSyncType: "Vertical + Horizontal"
+  "tree-view": {}
   welcome:
     showOnStartup: false
 ".django.html.text":
