@@ -40,7 +40,3 @@
 # Disable Enter key for confirming an autocomplete suggestion
 'atom-text-editor:not(mini).autocomplete-active':
   'enter': 'editor:newline'
-
-#Autocomplete python argumments
- 'atom-text-editor[data-grammar="python"]:not(mini)':
-     'tab': 'autocomplete-python-jedi:complete-arguments'

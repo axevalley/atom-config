@@ -1,62 +1,21 @@
 "*":
   "atom-beautify":
     general:
-      _analyticsUserId: "77febff3-70ae-421f-aef4-e848b7ebef9b"
-  "atom-package-deps":
-    ignored: []
-  "autocomplete-clang": {}
-  "autocomplete-python":
-    pythonPaths: "C:\\Python\\Python36\\python.exe"
-    showTooltips: true
-    useKite: false
-    useSnippets: "all"
-  "autocomplete-python-jedi": {}
+      _analyticsUserId: "3d0e556a-3406-4098-91a8-41092a1757e5"
   core:
-    closeDeletedFileTabs: true
     disabledPackages: [
-      "autocomplete-html"
-      "linter-python-pep257"
-      "language-gfm"
-      "spell-check"
-      "minimap-autohide"
-    ]
-    packagesWithKeymapsDisabled: [
-      "python-isort"
+      "language-python"
     ]
     telemetryConsent: "limited"
-    uriHandlerRegistration: "always"
   editor:
-    invisibles: {}
-    showIndentGuide: true
-    showInvisibles: true
-    tabLength: 4
-  emmet: {}
+    fontSize: 13
   "exception-reporting":
-    userId: "8535ec67-e2e7-ea4b-6ca6-53c91442d769"
-  "git-plus":
-    general:
-      _analyticsUserId: "bf118733-17bf-418b-83fe-9ef5cf20deed"
-  linter: {}
-  "linter-clang": {}
-  "linter-flake8": {}
-  "linter-pep8": {}
-  "linter-php": {}
-  "linter-phpcs":
-    codeStandardOrConfigFile: "PSR2"
-    executablePath: "C:\\xampp\\php\\phpcs.bat"
-    standard: "PSR2"
-    tabWidth: 4
-  "linter-pycodestyle":
-    convertAllErrorsToWarnings: false
+    userId: "383591af-ff37-430e-9478-df20518b6ed9"
   "linter-pydocstyle":
     ignoreCodes: "D105"
-  "linter-spell":
-    spellPath: "aspell"
-    spellingErrorSeverity: "info"
   "linter-ui-default":
-    panelHeight: 69
+    showPanel: true
   minimap:
-    absoluteMode: true
     plugins:
       cursorline: true
       cursorlineDecorationsZIndex: 0
@@ -68,8 +27,6 @@
       "highlight-selectedDecorationsZIndex": 0
       linter: true
       linterDecorationsZIndex: 0
-      "minimap-autohide": true
-      "minimap-autohideDecorationsZIndex": 0
       "minimap-autohider": true
       "minimap-autohiderDecorationsZIndex": 0
       pigments: true
@@ -78,19 +35,12 @@
       selectionDecorationsZIndex: 0
   "python-isort":
     sortOnSave: true
-  "rst-preview-pandoc":
-    pandocOpts: "-frst -thtml --webtex"
-  "spell-check":
-    locales: [
-      "en-GB"
-    ]
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
     leftEditorColor: "red"
     rightEditorColor: "green"
     scrollSyncType: "Vertical + Horizontal"
-  "tree-view": {}
   welcome:
     showOnStartup: false
 ".django.html.text":
