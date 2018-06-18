@@ -1,5 +1,7 @@
-pbr
-pydocstyle
 flake8
-pep8
+pydocstyle
+pyflakes
 isort
+yapf
+pycodestyle
+jedi

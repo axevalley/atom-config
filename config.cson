@@ -2,19 +2,22 @@
   "atom-beautify":
     general:
       _analyticsUserId: "3d0e556a-3406-4098-91a8-41092a1757e5"
+  "autocomplete-python":
+    useKite: false
   core:
-    disabledPackages: [
-      "language-python"
-    ]
     telemetryConsent: "limited"
   editor:
     fontSize: 13
   "exception-reporting":
     userId: "383591af-ff37-430e-9478-df20518b6ed9"
+  "linter-flake8": {}
+  "linter-pycodestyle": {}
   "linter-pydocstyle":
     ignoreCodes: "D105"
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
+  "linter-write-good":
+    additionalArgs: "--no-tooWordy --no-weasel --no-adverb"
+    severityLevel: "Info"
   minimap:
     plugins:
       cursorline: true
@@ -33,8 +36,35 @@
       pigmentsDecorationsZIndex: 0
       selection: true
       selectionDecorationsZIndex: 0
+  "python-autopep8":
+    formatOnSave: true
   "python-isort":
     sortOnSave: true
+  "python-yapf":
+    formatOnSave: true
+    yapfStyle: "{based_on_style: pep8, indent_width: 4, SPLIT_BEFORE_FIRST_ARGUMENT: true, column_limit: 79}"
+  "rst-preview-pandoc":
+    pandocOpts: "-frst -thtml --webtex"
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "text.restructuredtext"
+    ]
+    knownWords: [
+      "STC"
+      "TODO"
+      "todo"
+      "SKU"
+      "sku"
+      "stcstores"
+      "Surewear"
+      "Allsorts"
+      "stcadmin"
+    ]
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
@@ -43,6 +73,21 @@
     scrollSyncType: "Vertical + Horizontal"
   welcome:
     showOnStartup: false
+  wrap:
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "text.restructuredtext"
+    ]
 ".django.html.text":
   editor:
     tabLength: 4
+".python.source":
+  editor:
+    autoIndentOnPaste: true
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "auto"
