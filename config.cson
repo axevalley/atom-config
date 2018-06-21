@@ -10,11 +10,27 @@
     fontSize: 13
   "exception-reporting":
     userId: "383591af-ff37-430e-9478-df20518b6ed9"
+  "ide-python":
+    pylsPlugins:
+      autopep8:
+        enabled: false
+      pydocstyle:
+        convention: "pep257"
+        enabled: true
+      yapf:
+        enabled: true
   "linter-flake8": {}
+  "linter-mypy":
+    checkUntypedDefs: false
+    executablePath: "python"
+    followImports: "skip"
+    lintTrigger: "LintAsYouType"
+    warnIncompleteStub: false
   "linter-pycodestyle": {}
   "linter-pydocstyle":
     ignoreCodes: "D105"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 240
   "linter-write-good":
     additionalArgs: "--no-tooWordy --no-weasel --no-adverb"
     severityLevel: "Info"
@@ -36,6 +52,16 @@
       pigmentsDecorationsZIndex: 0
       selection: true
       selectionDecorationsZIndex: 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
+  "project-viewer":
+    autoHide: true
+    customWidth: 237
+    disclaimer:
+      v131: false
+    panelPosition: "Left (first)"
+    statusBar: true
+    visibilityOption: "Remember state"
   "python-autopep8":
     formatOnSave: true
   "python-isort":

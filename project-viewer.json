@@ -1,0 +1,159 @@
+{
+  "info": {
+    "version": "1.0.15",
+    "updated": "2018-06-21T15:46:56.050Z"
+  },
+  "root": [
+    {
+      "type": "group",
+      "name": "STC Admin",
+      "sortBy": "alphabetically",
+      "icon": "",
+      "color": "",
+      "expanded": true,
+      "list": [
+        {
+          "type": "project",
+          "name": "Order Profit",
+          "icon": "devicons-python",
+          "color": "",
+          "devMode": false,
+          "config": {},
+          "paths": [
+            "/home/axevalley/dev/order_profit"
+          ]
+        },
+        {
+          "type": "project",
+          "name": "stcadmin",
+          "icon": "devicons-django",
+          "color": "",
+          "devMode": false,
+          "config": {},
+          "paths": [
+            "/home/axevalley/dev/stcadmin/stcadmin"
+          ]
+        },
+        {
+          "type": "project",
+          "name": "List Input",
+          "icon": "devicons-python",
+          "color": "",
+          "devMode": false,
+          "config": {},
+          "paths": [
+            "/home/axevalley/dev/list_input"
+          ]
+        },
+        {
+          "type": "project",
+          "name": "STC Logo",
+          "icon": "icon-file-media",
+          "color": "",
+          "devMode": false,
+          "config": {},
+          "paths": [
+            "/home/axevalley/dev/stc_logo"
+          ]
+        },
+        {
+          "type": "project",
+          "name": "Labeler",
+          "icon": "devicons-python",
+          "color": "",
+          "devMode": false,
+          "config": {},
+          "paths": [
+            "/home/axevalley/dev/labeler"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "project",
+      "name": "CCAPI",
+      "icon": "devicons-python",
+      "color": "",
+      "devMode": false,
+      "config": {},
+      "paths": [
+        "/home/axevalley/dev/ccapi"
+      ]
+    },
+    {
+      "type": "project",
+      "name": "CC Products",
+      "icon": "devicons-python",
+      "color": "",
+      "devMode": false,
+      "config": {},
+      "paths": [
+        "/home/axevalley/dev/cc_products"
+      ]
+    },
+    {
+      "type": "project",
+      "name": "Tabler",
+      "icon": "devicons-python",
+      "color": "",
+      "devMode": false,
+      "config": {},
+      "paths": [
+        "/home/axevalley/dev/tabler"
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Configs",
+      "sortBy": "alphabetically",
+      "icon": "icon-gear",
+      "color": "",
+      "expanded": true,
+      "list": [
+        {
+          "type": "project",
+          "name": "Config",
+          "icon": "icon-gear",
+          "color": "",
+          "devMode": false,
+          "config": {},
+          "paths": [
+            "/home/axevalley/dev/config"
+          ]
+        },
+        {
+          "type": "project",
+          "name": "Atom Config",
+          "icon": "devicons-atom",
+          "color": "",
+          "devMode": false,
+          "config": {},
+          "paths": [
+            "/home/axevalley/dev/atom-config"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Gists",
+      "sortBy": "alphabetically",
+      "icon": "icon-logo-gist",
+      "color": "",
+      "expanded": true,
+      "list": [
+        {
+          "type": "project",
+          "name": "Makefile",
+          "icon": "icon-logo-gist",
+          "color": "",
+          "devMode": false,
+          "config": {},
+          "paths": [
+            "/home/axevalley/dev/Makefile"
+          ]
+        }
+      ]
+    }
+  ]
+}

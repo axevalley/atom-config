@@ -27,7 +27,6 @@ linter-shellcheck@1.4.7
 linter-ui-default@1.7.1
 linter-write-good@0.9.0
 maximize-panes@0.2.0
-merge-conflicts@1.4.5
 minimap@4.29.8
 minimap-autohider@1.5.4
 minimap-cursorline@0.2.0
@@ -37,7 +36,9 @@ minimap-highlight-selected@4.6.1
 minimap-linter@2.1.3
 minimap-pigments@0.2.2
 minimap-selection@4.5.0
+minimap-split-diff@0.3.7
 pigments@0.40.2
+project-viewer@1.3.1
 python-indent@1.1.5
 python-iresolve@0.0.3
 python-isort@0.0.7
