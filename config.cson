@@ -4,10 +4,15 @@
       _analyticsUserId: "3d0e556a-3406-4098-91a8-41092a1757e5"
   "autocomplete-python":
     useKite: false
+    useSnippets: "required"
   core:
     telemetryConsent: "limited"
   editor:
+    autoIndentOnPaste: false
     fontSize: 13
+    scrollPastEnd: true
+    showInvisibles: true
+    zoomFontWhenCtrlScrolling: false
   "exception-reporting":
     userId: "383591af-ff37-430e-9478-df20518b6ed9"
   "ide-python":
@@ -29,8 +34,7 @@
   "linter-pycodestyle": {}
   "linter-pydocstyle":
     ignoreCodes: "D105"
-  "linter-ui-default":
-    panelHeight: 240
+  "linter-ui-default": {}
   "linter-write-good":
     additionalArgs: "--no-tooWordy --no-weasel --no-adverb"
     severityLevel: "Info"
@@ -54,14 +58,21 @@
       selectionDecorationsZIndex: 0
       "split-diff": true
       "split-diffDecorationsZIndex": 0
+  "platformio-ide-terminal":
+    ansiColors:
+      normal: {}
+    style:
+      theme: "one-dark"
+    toggles:
+      autoClose: true
   "project-viewer":
-    autoHide: true
-    customWidth: 237
+    customHotZone: 5
+    customWidth: 167
     disclaimer:
       v131: false
-    panelPosition: "Left (first)"
+    dockOrPanel: true
+    panelPosition: "Left (last)"
     statusBar: true
-    visibilityOption: "Remember state"
   "python-autopep8":
     formatOnSave: true
   "python-isort":
@@ -97,6 +108,9 @@
     leftEditorColor: "red"
     rightEditorColor: "green"
     scrollSyncType: "Vertical + Horizontal"
+  "terminal-plus":
+    core:
+      autoRunCommand: "/bin/bash"
   welcome:
     showOnStartup: false
   wrap:
@@ -113,7 +127,7 @@
     tabLength: 4
 ".python.source":
   editor:
-    autoIndentOnPaste: true
+    autoIndentOnPaste: false
     showIndentGuide: true
     showInvisibles: true
-    tabType: "auto"
+    tabType: "soft"

@@ -1,37 +1,90 @@
 {
   "info": {
     "version": "1.0.15",
-    "updated": "2018-06-21T15:46:56.050Z"
+    "updated": "2018-07-16T09:47:36.833Z"
   },
   "root": [
     {
       "type": "group",
-      "name": "STC Admin",
+      "name": "Luke Shiner",
       "sortBy": "alphabetically",
-      "icon": "",
+      "icon": "devicons-git",
       "color": "",
-      "expanded": true,
+      "expanded": false,
       "list": [
         {
           "type": "project",
-          "name": "Order Profit",
+          "name": "Tabler",
           "icon": "devicons-python",
           "color": "",
           "devMode": false,
           "config": {},
           "paths": [
-            "/home/axevalley/dev/order_profit"
+            "/home/axevalley/dev/tabler"
           ]
         },
         {
           "type": "project",
-          "name": "stcadmin",
-          "icon": "devicons-django",
+          "name": "Labeler",
+          "icon": "devicons-python",
           "color": "",
           "devMode": false,
           "config": {},
           "paths": [
-            "/home/axevalley/dev/stcadmin/stcadmin"
+            "/home/axevalley/dev/labeler"
+          ]
+        },
+        {
+          "type": "group",
+          "name": "Configs",
+          "sortBy": "alphabetically",
+          "icon": "icon-gear",
+          "color": "",
+          "expanded": false,
+          "list": [
+            {
+              "type": "project",
+              "name": "Config",
+              "icon": "icon-gear",
+              "color": "",
+              "devMode": false,
+              "config": {},
+              "paths": [
+                "/home/axevalley/dev/config"
+              ]
+            },
+            {
+              "type": "project",
+              "name": "Atom Config",
+              "icon": "devicons-atom",
+              "color": "",
+              "devMode": false,
+              "config": {},
+              "paths": [
+                "/home/axevalley/dev/atom-config"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "Gists",
+          "sortBy": "alphabetically",
+          "icon": "icon-logo-gist",
+          "color": "",
+          "expanded": false,
+          "list": [
+            {
+              "type": "project",
+              "name": "Makefile",
+              "icon": "icon-logo-gist",
+              "color": "",
+              "devMode": false,
+              "config": {},
+              "paths": [
+                "/home/axevalley/dev/Makefile"
+              ]
+            }
           ]
         },
         {
@@ -47,110 +100,121 @@
         },
         {
           "type": "project",
-          "name": "STC Logo",
-          "icon": "icon-file-media",
-          "color": "",
-          "devMode": false,
-          "config": {},
-          "paths": [
-            "/home/axevalley/dev/stc_logo"
-          ]
-        },
-        {
-          "type": "project",
-          "name": "Labeler",
+          "name": "Enimga",
           "icon": "devicons-python",
           "color": "",
           "devMode": false,
           "config": {},
           "paths": [
-            "/home/axevalley/dev/labeler"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "project",
-      "name": "CCAPI",
-      "icon": "devicons-python",
-      "color": "",
-      "devMode": false,
-      "config": {},
-      "paths": [
-        "/home/axevalley/dev/ccapi"
-      ]
-    },
-    {
-      "type": "project",
-      "name": "CC Products",
-      "icon": "devicons-python",
-      "color": "",
-      "devMode": false,
-      "config": {},
-      "paths": [
-        "/home/axevalley/dev/cc_products"
-      ]
-    },
-    {
-      "type": "project",
-      "name": "Tabler",
-      "icon": "devicons-python",
-      "color": "",
-      "devMode": false,
-      "config": {},
-      "paths": [
-        "/home/axevalley/dev/tabler"
-      ]
-    },
-    {
-      "type": "group",
-      "name": "Configs",
-      "sortBy": "alphabetically",
-      "icon": "icon-gear",
-      "color": "",
-      "expanded": true,
-      "list": [
-        {
-          "type": "project",
-          "name": "Config",
-          "icon": "icon-gear",
-          "color": "",
-          "devMode": false,
-          "config": {},
-          "paths": [
-            "/home/axevalley/dev/config"
+            "/home/axevalley/dev/enigma"
           ]
         },
         {
           "type": "project",
-          "name": "Atom Config",
-          "icon": "devicons-atom",
+          "name": "tjrightdirection",
+          "icon": "devicons-django",
           "color": "",
           "devMode": false,
           "config": {},
           "paths": [
-            "/home/axevalley/dev/atom-config"
+            "/home/axevalley/dev/tjrightdirection"
+          ]
+        },
+        {
+          "type": "project",
+          "name": "Django Deployer",
+          "icon": "devicons-django",
+          "color": "",
+          "devMode": false,
+          "config": {},
+          "paths": [
+            "/home/axevalley/dev/django_deployer"
+          ]
+        },
+        {
+          "type": "project",
+          "name": "beutiful",
+          "icon": "devicons-django",
+          "color": "",
+          "devMode": false,
+          "config": {},
+          "paths": [
+            "/home/axevalley/dev/beutiful"
           ]
         }
       ]
     },
     {
       "type": "group",
-      "name": "Gists",
+      "name": "STC Stores",
       "sortBy": "alphabetically",
-      "icon": "icon-logo-gist",
+      "icon": "devicons-git",
       "color": "",
-      "expanded": true,
+      "expanded": false,
       "list": [
         {
+          "type": "group",
+          "name": "STC Admin",
+          "sortBy": "alphabetically",
+          "icon": "",
+          "color": "",
+          "expanded": true,
+          "list": [
+            {
+              "type": "project",
+              "name": "Order Profit",
+              "icon": "devicons-python",
+              "color": "",
+              "devMode": false,
+              "config": {},
+              "paths": [
+                "/home/axevalley/dev/order_profit"
+              ]
+            },
+            {
+              "type": "project",
+              "name": "stcadmin",
+              "icon": "devicons-django",
+              "color": "",
+              "devMode": false,
+              "config": {},
+              "paths": [
+                "/home/axevalley/dev/stcadmin/stcadmin"
+              ]
+            },
+            {
+              "type": "project",
+              "name": "STC Logo",
+              "icon": "icon-file-media",
+              "color": "",
+              "devMode": false,
+              "config": {},
+              "paths": [
+                "/home/axevalley/dev/stc_logo"
+              ]
+            }
+          ]
+        },
+        {
           "type": "project",
-          "name": "Makefile",
-          "icon": "icon-logo-gist",
+          "name": "CCAPI",
+          "icon": "devicons-python",
           "color": "",
           "devMode": false,
           "config": {},
           "paths": [
-            "/home/axevalley/dev/Makefile"
+            "/home/axevalley/dev/ccapi"
+          ]
+        },
+        {
+          "type": "project",
+          "name": "CC Products",
+          "icon": "devicons-python",
+          "color": "",
+          "devMode": false,
+          "config": {},
+          "paths": [
+            "/home/axevalley/dev/cc_products"
           ]
         }
       ]

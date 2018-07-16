@@ -1,6 +1,8 @@
+Chromodynamics@0.0.11
 atom-beautify@0.32.5
 atom-css-comb@3.3.1
 atom-django@0.3.2
+atom-material-ui@2.1.3
 atom-wrap-in-tag@0.6.0
 autocomplete-python@1.10.5
 busy-signal@1.4.3
@@ -8,11 +10,12 @@ color-picker@2.3.0
 django-templates@0.5.0
 emmet@2.4.3
 expose@0.15.0
-file-icons@2.1.21
+file-icons@2.1.22
 fonts@3.1.0
 git-time-machine@2.1.0
-highlight-selected@0.13.1
+highlight-selected@0.14.0
 intentions@1.1.5
+javascript-snippets@1.2.1
 language-restructuredtext@1.1.2
 linter@2.2.0
 linter-csslint@2.0.1
@@ -23,6 +26,7 @@ linter-pydocstyle@0.4.7
 linter-shellcheck@1.4.7
 linter-ui-default@1.7.1
 linter-write-good@0.9.0
+maximize-panes@0.2.0
 minimap@4.29.8
 minimap-autohider@1.5.4
 minimap-cursorline@0.2.0
@@ -34,8 +38,12 @@ minimap-pigments@0.2.2
 minimap-selection@4.5.0
 minimap-split-diff@0.3.7
 pigments@0.40.2
+predawn-syntax@1.0.4
+predawn-ui@1.0.7
 project-viewer@1.3.1
+python-debugger@0.2.0
 python-indent@1.1.5
+python-iresolve@0.0.3
 python-isort@0.0.7
 python-tools@0.6.9
 python-yapf@0.14.0
