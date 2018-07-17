@@ -34,7 +34,8 @@
   "linter-pycodestyle": {}
   "linter-pydocstyle":
     ignoreCodes: "D105"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "linter-write-good":
     additionalArgs: "--no-tooWordy --no-weasel --no-adverb"
     severityLevel: "Info"
@@ -73,6 +74,8 @@
     dockOrPanel: true
     panelPosition: "Left (last)"
     statusBar: true
+    visibilityActive: false
+    visibilityOption: "Remember state"
   "python-autopep8":
     formatOnSave: true
   "python-isort":
