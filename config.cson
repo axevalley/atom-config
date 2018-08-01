@@ -6,6 +6,9 @@
     useKite: false
     useSnippets: "required"
   core:
+    disabledPackages: [
+      "linter-pycodestyle"
+    ]
     telemetryConsent: "limited"
   editor:
     autoIndentOnPaste: false
@@ -24,7 +27,9 @@
         enabled: true
       yapf:
         enabled: true
-  "linter-flake8": {}
+  "linter-flake8":
+    flakeErrors: true
+    pycodestyleErrorsToWarnings: true
   "linter-mypy":
     checkUntypedDefs: false
     executablePath: "python"
@@ -34,8 +39,7 @@
   "linter-pycodestyle": {}
   "linter-pydocstyle":
     ignoreCodes: "D105"
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "linter-write-good":
     additionalArgs: "--no-tooWordy --no-weasel --no-adverb"
     severityLevel: "Info"
@@ -72,7 +76,7 @@
     disclaimer:
       v131: false
     dockOrPanel: true
-    panelPosition: "Left (last)"
+    panelPosition: "Left (first)"
     statusBar: true
     visibilityActive: false
     visibilityOption: "Remember state"
