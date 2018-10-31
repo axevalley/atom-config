@@ -1,48 +1,15 @@
 "*":
-  "atom-beautify":
-    general:
-      _analyticsUserId: "3d0e556a-3406-4098-91a8-41092a1757e5"
-  "autocomplete-python":
-    useKite: false
-    useSnippets: "required"
   core:
-    disabledPackages: [
-      "linter-pycodestyle"
-    ]
-    telemetryConsent: "limited"
+    telemetryConsent: "no"
   editor:
     autoIndentOnPaste: false
-    fontSize: 13
+    preferredLineLength: 90
     scrollPastEnd: true
+    showIndentGuide: true
     showInvisibles: true
-    zoomFontWhenCtrlScrolling: false
+    tabType: "soft"
   "exception-reporting":
-    userId: "383591af-ff37-430e-9478-df20518b6ed9"
-  "ide-python":
-    pylsPlugins:
-      autopep8:
-        enabled: false
-      pydocstyle:
-        convention: "pep257"
-        enabled: true
-      yapf:
-        enabled: true
-  "linter-flake8":
-    flakeErrors: true
-    pycodestyleErrorsToWarnings: true
-  "linter-mypy":
-    checkUntypedDefs: false
-    executablePath: "python"
-    followImports: "skip"
-    lintTrigger: "LintAsYouType"
-    warnIncompleteStub: false
-  "linter-pycodestyle": {}
-  "linter-pydocstyle":
-    ignoreCodes: "D105"
-  "linter-ui-default": {}
-  "linter-write-good":
-    additionalArgs: "--no-tooWordy --no-weasel --no-adverb"
-    severityLevel: "Info"
+    userId: "b4acd394-9826-4793-b20b-3aa89fee8b16"
   minimap:
     plugins:
       cursorline: true
@@ -63,78 +30,11 @@
       selectionDecorationsZIndex: 0
       "split-diff": true
       "split-diffDecorationsZIndex": 0
-  "platformio-ide-terminal":
-    ansiColors:
-      normal: {}
-    style:
-      theme: "one-dark"
-    toggles:
-      autoClose: true
-  "project-viewer":
-    customHotZone: 5
-    customWidth: 167
-    disclaimer:
-      v131: false
-    dockOrPanel: true
-    panelPosition: "Left (first)"
-    statusBar: true
-    visibilityActive: false
-    visibilityOption: "Remember state"
-  "python-autopep8":
-    formatOnSave: true
   "python-isort":
     sortOnSave: true
-  "python-yapf":
-    formatOnSave: true
-    yapfStyle: "{based_on_style: pep8, indent_width: 4, SPLIT_BEFORE_FIRST_ARGUMENT: true, column_limit: 79}"
   "rst-preview-pandoc":
     pandocOpts: "-frst -thtml --webtex"
-  "spell-check":
-    grammars: [
-      "source.asciidoc"
-      "source.gfm"
-      "text.git-commit"
-      "text.plain"
-      "text.plain.null-grammar"
-      "text.restructuredtext"
-    ]
-    knownWords: [
-      "STC"
-      "TODO"
-      "todo"
-      "SKU"
-      "sku"
-      "stcstores"
-      "Surewear"
-      "Allsorts"
-      "stcadmin"
-    ]
-  "split-diff":
-    diffWords: true
-    ignoreWhitespace: true
-    leftEditorColor: "red"
-    rightEditorColor: "green"
-    scrollSyncType: "Vertical + Horizontal"
-  "terminal-plus":
-    core:
-      autoRunCommand: "/bin/bash"
+  "tree-view":
+    hideVcsIgnoredFiles: false
   welcome:
     showOnStartup: false
-  wrap:
-    grammars: [
-      "source.asciidoc"
-      "source.gfm"
-      "text.git-commit"
-      "text.plain"
-      "text.plain.null-grammar"
-      "text.restructuredtext"
-    ]
-".django.html.text":
-  editor:
-    tabLength: 4
-".python.source":
-  editor:
-    autoIndentOnPaste: false
-    showIndentGuide: true
-    showInvisibles: true
-    tabType: "soft"
