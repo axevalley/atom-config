@@ -1,6 +1,19 @@
 "*":
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
+  "atom-mypy":
+    lintOnChange: false
+    mypyCommand: "pipenv run mypy"
   core:
+    disabledPackages: [
+      "linter"
+    ]
     telemetryConsent: "no"
+  "django-templates":
+    defaultToDjangoTemplatesForFilePathsContaining: [
+      "templates"
+    ]
   editor:
     autoIndentOnPaste: false
     preferredLineLength: 90
@@ -10,6 +23,13 @@
     tabType: "soft"
   "exception-reporting":
     userId: "b4acd394-9826-4793-b20b-3aa89fee8b16"
+  "formatter-gofmt":
+    a: {}
+  "linter-eslint":
+    lintHtmlFiles: true
+  "linter-mypy":
+    executablePath: "python"
+  "linter-ui-default": {}
   minimap:
     plugins:
       cursorline: true
@@ -34,6 +54,9 @@
     sortOnSave: true
   "rst-preview-pandoc":
     pandocOpts: "-frst -thtml --webtex"
+  "split-diff":
+    autoDiff: false
+    ignoreWhitespace: true
   "tree-view":
     hideVcsIgnoredFiles: false
   welcome:
